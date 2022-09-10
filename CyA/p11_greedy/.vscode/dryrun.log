@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/usuario/2nd_year_CyA/p11_greedy'
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o main_backpack.o main_backpack.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o main_functions.o main_functions.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -o backpack main_backpack.o main_functions.o
+make: Leaving directory '/home/usuario/2nd_year_CyA/p11_greedy'
+ 

@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/usuario/2nd_year_CyA/p03_string_operations'
+g++ -c -o main_string_operations.o main_string_operations.cc -I -Weffc++ -Wall -g
+g++ -c -o symbol_class.o symbol_class.cc -I -Weffc++ -Wall -g
+g++ -c -o word_class.o word_class.cc -I -Weffc++ -Wall -g
+g++ -c -o alphabet_class.o alphabet_class.cc -I -Weffc++ -Wall -g
+g++ -c -o language_class.o language_class.cc -I -Weffc++ -Wall -g
+g++ -o main_string_operations main_string_operations.o symbol_class.o word_class.o alphabet_class.o language_class.o -I -Weffc++ -Wall -g
+make: Leaving directory '/home/usuario/2nd_year_CyA/p03_string_operations'
+ 

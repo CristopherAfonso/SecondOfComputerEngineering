@@ -1,0 +1,11 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/usuario/2nd_year_CyA/p07_nfa_simulator'
+g++ -c -o main_nfa_simulator.o main_nfa_simulator.cc -I -std=c++20 -Wall -Weffc++ -Wextra -g
+g++ -c -o alphabet.o alphabet.cc -I -std=c++20 -Wall -Weffc++ -Wextra -g
+g++ -c -o chain.o chain.cc -I -std=c++20 -Wall -Weffc++ -Wextra -g
+g++ -c -o nfa.o nfa.cc -I -std=c++20 -Wall -Weffc++ -Wextra -g
+g++ -c -o state_nfa.o state_nfa.cc -I -std=c++20 -Wall -Weffc++ -Wextra -g
+g++ -c -o symbol.o symbol.cc -I -std=c++20 -Wall -Weffc++ -Wextra -g
+g++ -o main_nfa_simulator main_nfa_simulator.o alphabet.o chain.o nfa.o state_nfa.o symbol.o -I -std=c++20 -Wall -Weffc++ -Wextra -g
+make: Leaving directory '/home/usuario/2nd_year_CyA/p07_nfa_simulator'
+ 

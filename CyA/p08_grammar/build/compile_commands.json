@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/usuario/2nd_year_CyA/p08_grammar/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/usuario/2nd_year_CyA/p08_grammar  -g -O0   -Wall -Wextra -Weffc++ -Wpedantic -Werror -std=gnu++2a -o CMakeFiles/main_grammar.dir/set_symbols.cc.o -c /home/usuario/2nd_year_CyA/p08_grammar/set_symbols.cc",
+  "file": "/home/usuario/2nd_year_CyA/p08_grammar/set_symbols.cc"
+},
+{
+  "directory": "/home/usuario/2nd_year_CyA/p08_grammar/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/usuario/2nd_year_CyA/p08_grammar  -g -O0   -Wall -Wextra -Weffc++ -Wpedantic -Werror -std=gnu++2a -o CMakeFiles/main_grammar.dir/productions.cc.o -c /home/usuario/2nd_year_CyA/p08_grammar/productions.cc",
+  "file": "/home/usuario/2nd_year_CyA/p08_grammar/productions.cc"
+},
+{
+  "directory": "/home/usuario/2nd_year_CyA/p08_grammar/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/usuario/2nd_year_CyA/p08_grammar  -g -O0   -Wall -Wextra -Weffc++ -Wpedantic -Werror -std=gnu++2a -o CMakeFiles/main_grammar.dir/grammar.cc.o -c /home/usuario/2nd_year_CyA/p08_grammar/grammar.cc",
+  "file": "/home/usuario/2nd_year_CyA/p08_grammar/grammar.cc"
+},
+{
+  "directory": "/home/usuario/2nd_year_CyA/p08_grammar/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/usuario/2nd_year_CyA/p08_grammar  -g -O0   -Wall -Wextra -Weffc++ -Wpedantic -Werror -std=gnu++2a -o CMakeFiles/main_grammar.dir/main_functions.cc.o -c /home/usuario/2nd_year_CyA/p08_grammar/main_functions.cc",
+  "file": "/home/usuario/2nd_year_CyA/p08_grammar/main_functions.cc"
+},
+{
+  "directory": "/home/usuario/2nd_year_CyA/p08_grammar/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/usuario/2nd_year_CyA/p08_grammar  -g -O0   -Wall -Wextra -Weffc++ -Wpedantic -Werror -std=gnu++2a -o CMakeFiles/main_grammar.dir/main_grammar.cc.o -c /home/usuario/2nd_year_CyA/p08_grammar/main_grammar.cc",
+  "file": "/home/usuario/2nd_year_CyA/p08_grammar/main_grammar.cc"
+}
+]

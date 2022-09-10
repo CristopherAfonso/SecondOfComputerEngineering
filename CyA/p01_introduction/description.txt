@@ -1,0 +1,1 @@
+En esta sesión de prácticas, solo configuramos la máquina virtual, la enlazamos a GitHub y hicimos este programa en el aula para demostrar que mínimo recordabamos algunas cosas de C++

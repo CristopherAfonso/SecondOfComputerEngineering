@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/usuario/2nd_year_CyA/p04_code_analyzer'
+g++ -c -o main_code_analyzer.o main_code_analyzer.cc -I -Weffc++ -Wall -g   
+g++ -c -o analyzer_cc_class.o analyzer_cc_class.cc -I -Weffc++ -Wall -g   
+g++ -o main_code_analyzer main_code_analyzer.o analyzer_cc_class.o -I -Weffc++ -Wall -g   
+make: Leaving directory '/home/usuario/2nd_year_CyA/p04_code_analyzer'
+ 

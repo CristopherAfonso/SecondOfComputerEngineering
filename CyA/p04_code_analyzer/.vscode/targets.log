@@ -1,0 +1,266 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Oct 26 07:32:35 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 19)
+OBJ = main_code_analyzer.o analyzer_cc_class.o 
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AGENT_FOLDER = /home/usuario/.vscode-server
+# environment
+XDG_SESSION_TYPE = tty
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/usuario/2nd_year_CyA/p04_code_analyzer
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /home/usuario/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/node
+# makefile (from 'Makefile', line 17)
+CFLAGS = -I -Weffc++ -Wall -g   
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = C.UTF-8
+# environment
+VSCODE_CWD = /home/usuario
+# environment
+SSH_CONNECTION = 10.150.90.117 40868 10.6.129.155 22
+# environment
+PATH = /home/usuario/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/bin:/home/usuario/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+VSCODE_LOG_STACK = false
+# environment
+LC_NUMERIC = C.UTF-8
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-f0b32435-f236-434c-8a7e-00f0ba0adc41.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/usuario/2nd_year_CyA/p04_code_analyzer
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
+# environment
+HOME = /home/usuario
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = usuario
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = C.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from 'Makefile', line 16)
+CC = g++
+# environment
+XDG_SESSION_ID = 1
+# environment
+USER = usuario
+# environment
+LC_MONETARY = C.UTF-8
+# makefile
+.DEFAULT_GOAL := main_code_analyzer
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = C.UTF-8
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 10.150.90.117 40868 22
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/usuario/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/bin/helpers/browser.sh
+# environment
+LC_IDENTIFICATION = C.UTF-8
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# automatic
+^F = $(notdir $^)
+# environment
+LC_MEASUREMENT = C.UTF-8
+# environment
+LC_ALL = C
+# environment
+LC_PAPER = C.UTF-8
+# makefile (from 'Makefile', line 18)
+DEPS = analyzer_cc_class.h
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/usuario/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/remote/node_modules
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = C.UTF-8
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+MOTD_SHOWN = pam
+# variable set hash-table stats:
+# Load=83/1024=8%, Rehash=0, Collisions=16/110=15%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 64768, inode 659946): 12 files, no impossibilities.
+
+# 12 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.cc analyzer_cc_class.h
+#  recipe to execute (from 'Makefile', line 22):
+		$(CC) -c -o $@ $< $(CFLAGS)
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+main_code_analyzer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+main_code_analyzer: main_code_analyzer.o analyzer_cc_class.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+		$(CC) -o $@ $^ $(CFLAGS)
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-23 16:48:25.6607077
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+analyzer_cc_class.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 28):
+		rm -rf *.o
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/20=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 20 / storage = 240 B / avg = 12 B
+# current buf: size = 8162 B / used = 240 B / count = 20 / avg = 12 B
+
+# strcache performance: lookups = 30 / hit rate = 33%
+# hash-table stats:
+# Load=20/8192=0%, Rehash=0, Collisions=1/30=3%
+# Finished Make data base on Tue Oct 26 07:32:35 2021
+
+ 
+make: *** No rule to make target 'all'.  Stop.
+ 

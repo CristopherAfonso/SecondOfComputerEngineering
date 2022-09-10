@@ -1,0 +1,12 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/usuario/2nd_year_CyA/p06_dfa_simulator'
+g++ -c -o main_dfa_simulator.o main_dfa_simulator.cc -I -Weffc++ -Wall -g
+g++ -c -o alphabet.o alphabet.cc -I -Weffc++ -Wall -g
+g++ -c -o chain.o chain.cc -I -Weffc++ -Wall -g
+g++ -c -o dfa.o dfa.cc -I -Weffc++ -Wall -g
+g++ -c -o set_status.o set_status.cc -I -Weffc++ -Wall -g
+g++ -c -o symbol.o symbol.cc -I -Weffc++ -Wall -g
+g++ -c -o trans_func.o trans_func.cc -I -Weffc++ -Wall -g
+g++ -o main_dfa_simulator main_dfa_simulator.o alphabet.o chain.o dfa.o set_status.o symbol.o trans_func.o -I -Weffc++ -Wall -g
+make: Leaving directory '/home/usuario/2nd_year_CyA/p06_dfa_simulator'
+ 

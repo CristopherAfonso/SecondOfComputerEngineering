@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/usuario/2nd_year_CyA/p05_dna_sequencer'
+g++ -c -o alphabet_class.o alphabet_class.cc -I -Weffc++ -Wall -g
+g++ -c -o dfa_dna_class.o dfa_dna_class.cc -I -Weffc++ -Wall -g
+g++ -c -o set_status_class.o set_status_class.cc -I -Weffc++ -Wall -g
+g++ -c -o trans_func_class.o trans_func_class.cc -I -Weffc++ -Wall -g
+g++ -c -o main_dna_sequencer.o main_dna_sequencer.cc -I -Weffc++ -Wall -g
+g++ -o main_dna_sequencer alphabet_class.o dfa_dna_class.o set_status_class.o trans_func_class.o main_dna_sequencer.o -I -Weffc++ -Wall -g
+make: Leaving directory '/home/usuario/2nd_year_CyA/p05_dna_sequencer'
+ 

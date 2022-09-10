@@ -1,0 +1,3 @@
+/home/usuario/2nd_year_CyA/p08_grammar/build/CMakeFiles/rebuild_cache.dir
+/home/usuario/2nd_year_CyA/p08_grammar/build/CMakeFiles/edit_cache.dir
+/home/usuario/2nd_year_CyA/p08_grammar/build/CMakeFiles/main_grammar.dir

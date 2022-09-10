@@ -1,0 +1,37 @@
+PROGRAM: test1.cc
+DESCRIPTION: (Lineas en blanco del archivo original omitidas)
+/**
+ * Universidad de La Laguna
+ * Escuela Superior de Ingenieria y Tecnologia
+ * Informatica Basica
+ *
+ * @author F. de Sande
+ * @date 23. nov .2020
+ * @brief Ejercicios propuestos en las practicas de IB
+ * La funcion exponencial, f(x)=ex, se puede calcular mediante
+ * su desarrollo en serie de Taylor. Cuantos mas terminos
+ * tome de la serie, mayor sera la precision de la aproximacion
+ * a la funcion.
+ *
+ * Version 1: Funcion factorial
+ *
+ * @see https://github.com/fsande/IB-P07-Functions/blob/master/Functions.md
+ * @see https://wesmckinney.com/blog/avoid-unsigned-integers/
+ */
+
+
+VARIABLES: NumInt: 1, NumDouble: 0
+[Line 42] INT: limit{0}
+
+STATEMENTS: NumFor: 2, NumWhile: 0
+[Line 32] LOOP: for
+[Line 44] LOOP: for
+[Line 30] RETURN: false
+[Line 36] RETURN: factorial
+[Line 48] RETURN: 0
+
+MAIN: True
+
+COMMENTS: 
+[Line 1-18] DESCRIPTION
+[Line 23] // Returns the factorial of the argument

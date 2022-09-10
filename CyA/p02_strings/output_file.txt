@@ -1,0 +1,4 @@
+& a a b a b aa ab ba ab aab aba bab aaba abab aabab 
+& 8 4 3 4 5 84 43 34 45 843 434 345 8434 4345 84345 
+& h o l a ho ol la hol ola hola 
+& guau ejemplo sera un aprobado guauejemplo ejemplosera seraun unaprobado guauejemplosera ejemploseraun seraunaprobado guauejemploseraun ejemploseraunaprobado guauejemploseraunaprobado 
