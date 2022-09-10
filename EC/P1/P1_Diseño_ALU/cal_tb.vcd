@@ -1,0 +1,131 @@
+$date
+	Thu Nov  4 18:53:46 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module cal_tb $end
+$var wire 1 ! t_out $end
+$var wire 1 " t_c_out $end
+$var reg 1 # t_a $end
+$var reg 1 $ t_arit $end
+$var reg 1 % t_b $end
+$var reg 1 & t_c_in $end
+$var reg 2 ' t_s [1:0] $end
+$scope module cal1 $end
+$var wire 1 # a $end
+$var wire 1 $ arit $end
+$var wire 1 % b $end
+$var wire 1 & c_in $end
+$var wire 2 ( s [1:0] $end
+$var wire 1 ! out $end
+$var wire 1 ) fa_out $end
+$var wire 1 * cl_out $end
+$var wire 1 " c_out $end
+$scope module cl1 $end
+$var wire 1 # a $end
+$var wire 1 + and_out $end
+$var wire 1 % b $end
+$var wire 1 , not_out $end
+$var wire 1 - or_out $end
+$var wire 2 . s [1:0] $end
+$var wire 1 / xor_out $end
+$var wire 1 * out $end
+$scope module mux_4_1 $end
+$var wire 1 + a $end
+$var wire 1 - b $end
+$var wire 1 / c $end
+$var wire 1 , d $end
+$var wire 2 0 s [1:0] $end
+$var reg 1 * out $end
+$upscope $end
+$upscope $end
+$scope module fa1 $end
+$var wire 1 # a $end
+$var wire 1 % b $end
+$var wire 1 & cin $end
+$var wire 1 1 sum1 $end
+$var wire 1 ) sum $end
+$var wire 1 " cout $end
+$var wire 1 2 carry2 $end
+$var wire 1 3 carry1 $end
+$upscope $end
+$scope module mux2_1_1 $end
+$var wire 1 * a $end
+$var wire 1 ) b $end
+$var wire 1 $ s $end
+$var wire 1 ! out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+03
+02
+01
+b0 0
+0/
+b0 .
+0-
+1,
+0+
+0*
+0)
+b0 (
+b0 '
+0&
+0%
+1$
+0#
+0"
+0!
+$end
+#2000
+1!
+1)
+1&
+#4000
+1-
+1/
+11
+0&
+1%
+#6000
+1"
+0!
+0)
+12
+1&
+#8000
+0"
+1!
+1)
+02
+0,
+0&
+0%
+1#
+#10000
+1"
+0!
+0)
+12
+1&
+#12000
+1*
+02
+1+
+0/
+01
+13
+0&
+1%
+#14000
+1!
+1)
+1&
+#16000

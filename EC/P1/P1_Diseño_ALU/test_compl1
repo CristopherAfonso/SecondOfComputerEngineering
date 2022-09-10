@@ -1,0 +1,48 @@
+#! /usr/bin/vvp
+:ivl_version "10.3 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 11;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x556f1a1530f0 .scope module, "compl1_tb" "compl1_tb" 2 7;
+ .timescale -9 -11;
+v0x556f1a199e90_0 .var "t_Ent", 3 0;
+v0x556f1a199f80_0 .net "t_Sal", 3 0, L_0x556f1a19a240;  1 drivers
+v0x556f1a19a050_0 .var "t_cpl", 0 0;
+S_0x556f1a153270 .scope module, "compl1_1" "compl1" 2 14, 3 5 0, S_0x556f1a1530f0;
+ .timescale -9 -11;
+    .port_info 0 /OUTPUT 4 "Sal"
+    .port_info 1 /INPUT 4 "Ent"
+    .port_info 2 /INPUT 1 "cpl"
+L_0x556f1a19a150 .functor NOT 4, v0x556f1a199e90_0, C4<0000>, C4<0000>, C4<0000>;
+v0x556f1a189b40_0 .net "Ent", 3 0, v0x556f1a199e90_0;  1 drivers
+v0x556f1a199bb0_0 .net "Sal", 3 0, L_0x556f1a19a240;  alias, 1 drivers
+v0x556f1a199c90_0 .net *"_s0", 3 0, L_0x556f1a19a150;  1 drivers
+v0x556f1a199d50_0 .net "cpl", 0 0, v0x556f1a19a050_0;  1 drivers
+L_0x556f1a19a240 .functor MUXZ 4, v0x556f1a199e90_0, L_0x556f1a19a150, v0x556f1a19a050_0, C4<>;
+    .scope S_0x556f1a1530f0;
+T_0 ;
+    %vpi_call 2 17 "$monitor", "tiempo=%0d, t_Ent=%b t_cpl=%b t_Sal=%b", $time, v0x556f1a199e90_0, v0x556f1a19a050_0, v0x556f1a199f80_0 {0 0 0};
+    %vpi_call 2 18 "$dumpfile", "compl1_tb.vcd" {0 0 0};
+    %vpi_call 2 19 "$dumpvars" {0 0 0};
+    %pushi/vec4 5, 0, 4;
+    %store/vec4 v0x556f1a199e90_0, 0, 4;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x556f1a19a050_0, 0, 1;
+    %delay 2000, 0;
+    %pushi/vec4 5, 0, 4;
+    %store/vec4 v0x556f1a199e90_0, 0, 4;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x556f1a19a050_0, 0, 1;
+    %delay 2000, 0;
+    %vpi_call 2 29 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "compl1_tb.v";
+    "compl1.v";

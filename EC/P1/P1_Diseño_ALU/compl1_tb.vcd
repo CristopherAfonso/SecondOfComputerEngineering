@@ -1,0 +1,33 @@
+$date
+	Thu Nov  4 20:15:34 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module compl1_tb $end
+$var wire 4 ! t_Sal [3:0] $end
+$var reg 4 " t_Ent [3:0] $end
+$var reg 1 # t_cpl $end
+$scope module compl1_1 $end
+$var wire 4 $ Ent [3:0] $end
+$var wire 1 # cpl $end
+$var wire 4 % Sal [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b101 %
+b101 $
+0#
+b101 "
+b101 !
+$end
+#2000
+b1010 !
+b1010 %
+1#
+#4000
