@@ -1,0 +1,16 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/themaster/Documentos/2nd_year_AEDA/p07_binary_search_tree'
+g++ -I -g -std=c++20 -Wall -Wextra -Wpedantic -Weffc++  -c -o build/AB.o src/AB.cc
+g++ -I -g -std=c++20 -Wall -Wextra -Wpedantic -Weffc++  -c -o build/ABB.o src/ABB.cc
+g++ -I -g -std=c++20 -Wall -Wextra -Wpedantic -Weffc++  -c -o build/ABE.o src/ABE.cc
+g++ -I -g -std=c++20 -Wall -Wextra -Wpedantic -Weffc++  -c -o build/Dummy.o src/Dummy.cc
+g++ -I -g -std=c++20 -Wall -Wextra -Wpedantic -Weffc++  -c -o build/NodoB.o src/NodoB.cc
+g++ -I -g -std=c++20 -Wall -Wextra -Wpedantic -Weffc++  -c -o build/main_binary_search_tree.o src/main_binary_search_tree.cc
+g++ -I -g -std=c++20 -Wall -Wextra -Wpedantic -Weffc++  -c -o build/main_functions.o src/main_functions.cc
+g++ -I -g -std=c++20 -Wall -Wextra -Wpedantic -Weffc++  -o bin/binary_search_tree build/AB.o build/ABB.o build/ABE.o build/Dummy.o build/NodoB.o build/main_binary_search_tree.o build/main_functions.o
+echo ""
+echo ARCHIVOS .o: build/AB.o build/ABB.o build/ABE.o build/Dummy.o build/NodoB.o build/main_binary_search_tree.o build/main_functions.o
+echo ARCHIVOS .h: include/*.h
+echo ""
+make: Leaving directory '/home/themaster/Documentos/2nd_year_AEDA/p07_binary_search_tree'
+ 

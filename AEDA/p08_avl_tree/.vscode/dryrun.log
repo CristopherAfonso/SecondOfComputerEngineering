@@ -1,0 +1,13 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/themaster/Documentos/2nd_year_AEDA/p08_avl_tree'
+g++ -I -g -std=c++20 -Wall -Wextra -Wpedantic -Weffc++  -c -o build/Dummy.o src/Dummy.cc
+g++ -I -g -std=c++20 -Wall -Wextra -Wpedantic -Weffc++  -c -o build/main_avl_tree.o src/main_avl_tree.cc
+g++ -I -g -std=c++20 -Wall -Wextra -Wpedantic -Weffc++  -c -o build/main_functions.o src/main_functions.cc
+ 
+g++ -I -g -std=c++20 -Wall -Wextra -Wpedantic -Weffc++  -o bin/avl_tree build/Dummy.o build/main_avl_tree.o build/main_functions.o
+echo ""
+echo ARCHIVOS .o: build/Dummy.o build/main_avl_tree.o build/main_functions.o
+echo ARCHIVOS .h: include/*.h
+echo ""
+make: Leaving directory '/home/themaster/Documentos/2nd_year_AEDA/p08_avl_tree'
+ 

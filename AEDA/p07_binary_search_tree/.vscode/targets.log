@@ -1,0 +1,465 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun May 15 19:08:33 2022
+
+# Variables
+
+# makefile (from 'Makefile', line 33)
+OBJ = $(shell echo $(AUX) | sed -r 's/.cc/.o/g' | sed -r 's/$(OBJSRC)/$(OBJDIR)/g')
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/themaster/.gtkrc:/home/themaster/.config/gtkrc
+# makefile (from 'Makefile', line 13)
+OBJDIR = build
+# environment
+SNAP_INSTANCE_KEY = 
+# makefile (from 'Makefile', line 19)
+OBJSRC = src
+# makefile (from 'Makefile', line 10)
+BINDIR = bin
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-bf1c36c7-210a-4484-897c-d7c3aae23b0c.sock
+# environment
+LC_NAME = es_ES.UTF-8
+# environment
+LC_NUMERIC = es_ES.UTF-8
+# environment
+VSCODE_CWD = /home/themaster/Documentos/2nd_year_AEDA/p07_binary_search_tree
+# makefile (from 'Makefile', line 32)
+AUX = $(OBJSRC)/*.cc
+# environment
+LC_ADDRESS = es_ES.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# makefile (from 'Makefile', line 16)
+DEPSSRC = include
+# environment
+VSCODE_GIT_ASKPASS_EXTRA_ARGS = --ms-enable-electron-run-as-node
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/95/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/themaster/Documentos/2nd_year_AEDA/p07_binary_search_tree
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/plasma:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/themaster/Documentos/2nd_year_AEDA
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/themaster/.config/Code/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/themaster/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/themaster/Documentos/2nd_year_AEDA/p07_binary_search_tree
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PAM_KWALLET5_LOGIN = /run/user/1000/kwallet5.socket
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXugxeQI/agent.1532
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /home/themaster/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GIT_ASKPASS = /snap/code/95/usr/share/code/resources/app/extensions/git/dist/askpass.sh
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+XDG_SESSION_DESKTOP = KDE
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 2273
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SESSION_MANAGER = local/Fenix:@/tmp/.ICE-unix/1922,unix/Fenix:/tmp/.ICE-unix/1922
+# makefile (from 'Makefile', line 7)
+EJECUTABLE = binary_search_tree
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"125a9a608456aa5e8a25d0a18c7b1d68.es","_translationsConfigFile":"/home/themaster/.config/Code/clp/125a9a608456aa5e8a25d0a18c7b1d68.es/tcf.json","_cacheRoot":"/home/themaster/.config/Code/clp/125a9a608456aa5e8a25d0a18c7b1d68.es","_resolvedLanguagePackCoreLocation":"/home/themaster/.config/Code/clp/125a9a608456aa5e8a25d0a18c7b1d68.es/57fd6d0195bb9b9d1b49f6da5db789060795de47","_corruptedFile":"/home/themaster/.config/Code/clp/125a9a608456aa5e8a25d0a18c7b1d68.es/corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# makefile (from 'Makefile', line 28)
+DEPSCPY = $(DEPS)
+# environment
+SHLVL = 1
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = PRfI_RZqYwhKj3mP-CADXCuVtfLvYgvOIXS8l7Y4HEnDH1jX_1JB
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# default
+MAKEFILES := 
+# environment
+VSCODE_GIT_IPC_HANDLE = /run/user/1000/vscode-git-ae82cd9a27.sock
+# environment
+LANGUAGE = es:en_US:en
+# environment
+VSCODE_GIT_ASKPASS_NODE = /snap/code/95/usr/share/code/code
+# environment
+LC_MONETARY = es_ES.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_USER_COMMON = /home/themaster/snap/code/common
+# environment
+LC_TIME = es_ES.UTF-8
+# environment
+VSCODE_GIT_ASKPASS_MAIN = /snap/code/95/usr/share/code/resources/app/extensions/git/dist/askpass-main.js
+# environment
+SNAP = /snap/code/95
+# environment
+SNAP_REVISION = 95
+# environment
+SNAP_REAL_HOME = /home/themaster
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+TERM_PROGRAM = vscode
+# environment
+LC_TELEPHONE = es_ES.UTF-8
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# environment
+XDG_SEAT = seat0
+# environment
+GTK_IM_MODULE = ibus
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = plasma
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+CLUTTER_IM_MODULE = ibus
+# environment
+LOGNAME = themaster
+# environment
+SNAP_ARCH = amd64
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := bin/binary_search_tree
+# environment
+SYSTEMD_EXEC_PID = 1474
+# environment
+DISPLAY = :0
+# environment
+USER = themaster
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+KDE_SESSION_UID = 1000
+# 'override' directive
+.SHELLSTATUS := 0
+# environment
+DISABLE_WAYLAND = 1
+# environment
+SNAP_DATA = /var/snap/code/95
+# environment
+SNAP_CONTEXT = PRfI_RZqYwhKj3mP-CADXCuVtfLvYgvOIXS8l7Y4HEnDH1jX_1JB
+# environment
+LC_MEASUREMENT = es_ES.UTF-8
+# environment
+SSH_AGENT_PID = 1634
+# environment
+LC_PAPER = es_ES.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 4)
+CFLAGS = -I -g -std=c++20 -Wall -Wextra -Wpedantic -Weffc++ 
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+COLORTERM = truecolor
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/themaster/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/themaster/.gtkrc-2.0:/home/themaster/.config/gtkrc-2.0
+# environment
+HOME = /home/themaster
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-9b8d5325-1.67.0-main.sock
+# environment
+TERM = xterm-256color
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/95/usr/share/glib-2.0/schemas
+# environment
+XDG_SESSION_ID = 3
+# environment
+XCURSOR_SIZE = 24
+# environment
+PAPERSIZE = a4
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 27)
+DEPS = $(DEPSSRC)/*.h
+# environment
+SNAP_VERSION = 57fd6d01
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 2)
+CC = g++
+# environment
+KDE_FULL_SESSION = true
+# environment
+SNAP_USER_DATA = /home/themaster/snap/code/95
+# environment
+TERM_PROGRAM_VERSION = 1.67.0
+# environment
+LC_IDENTIFICATION = es_ES.UTF-8
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# variable set hash-table stats:
+# Load=157/1024=15%, Rehash=0, Collisions=11/200=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# include (device 2051, inode 1181867): 6 files, no impossibilities.
+# src (device 2051, inode 1181872): No files, no impossibilities so far.
+# . (device 2051, inode 1181852): 8 files, no impossibilities.
+
+# 14 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+build/%.o: src/%.cc include/AB.h include/ABE.h include/NodoB.h include/main_functions.h
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+build/main_balanced_binary_tree.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/ABE.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-15 19:07:20.617618139
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/NodoB.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 48):
+	rm -rf $(OBJDIR)/*.o
+
+template:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 54):
+	mkdir $(BINDIR)
+	mkdir $(OBJDIR)
+	mkdir $(DEPSSRC)
+	mkdir $(OBJSRC)
+	@echo "Plantilla creada correctamente"
+
+# Not a target:
+build/main_functions.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cleaner:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 51):
+	rm -rf $(BINDIR)/*
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+show:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 61):
+	@echo $(AUX)
+	@echo $(OBJ)
+	@echo $(DEPSCPY)
+
+bin/binary_search_tree: build/AB.o build/ABE.o build/NodoB.o build/main_balanced_binary_tree.o build/main_functions.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 40):
+	$(CC) $(CFLAGS) -o $@ $^
+	@echo ""
+	@echo ARCHIVOS .o: $(OBJ)
+	@echo ARCHIVOS .h: $(DEPSCPY)
+	@echo ""
+
+# Not a target:
+build/AB.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=14/1024=1%, Rehash=0, Collisions=0/29=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 33 / storage = 367 B / avg = 11 B
+# current buf: size = 8162 B / used = 367 B / count = 33 / avg = 11 B
+
+# strcache performance: lookups = 46 / hit rate = 28%
+# hash-table stats:
+# Load=33/8192=0%, Rehash=0, Collisions=0/46=0%
+# Finished Make data base on Sun May 15 19:08:33 2022
+
+ 

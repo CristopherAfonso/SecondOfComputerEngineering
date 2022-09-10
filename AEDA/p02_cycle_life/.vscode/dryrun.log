@@ -1,0 +1,15 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/themaster/Documentos/2nd_year_AEDA/p02_cycle_life'
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o main_functions.o main_functions.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o Cell.o Cell.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o Grid.o Grid.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o State.o State.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o StateDead.o StateDead.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o StateEgg.o StateEgg.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o StateLarva.o StateLarva.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o StatePupa.o StatePupa.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o StateAdult.o StateAdult.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o main_cycle_life.o main_cycle_life.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -o cycle_life main_functions.o Cell.o Grid.o State.o StateDead.o StateEgg.o StateLarva.o StatePupa.o StateAdult.o main_cycle_life.o
+make: Leaving directory '/home/themaster/Documentos/2nd_year_AEDA/p02_cycle_life'
+ 

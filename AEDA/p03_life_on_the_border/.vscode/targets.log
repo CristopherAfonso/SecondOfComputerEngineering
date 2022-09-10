@@ -1,0 +1,374 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+ 
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Apr  4 08:43:28 2022
+
+# Variables
+
+# makefile (from 'Makefile', line 29)
+OBJ = main_functions.o Cell.o Grid.o GridWithOpenBorder.o GridWithPeriodicBorder.o GridWithReflectiveBorder.o GridWithoutBorder.o State.o StateDead.o StateAlive.o main_life_border.o
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/themaster/.gtkrc:/home/themaster/.config/gtkrc
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-da74469b-1842-4547-8740-0d9498a59823.sock
+# environment
+LC_NAME = es_ES.UTF-8
+# environment
+LC_NUMERIC = es_ES.UTF-8
+# environment
+VSCODE_CWD = /home/themaster
+# environment
+LC_ADDRESS = es_ES.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/themaster/Documentos/2nd_year_AEDA/p03_life_on_the_border
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/themaster/.config/VSCodium/CachedData/899d46d82c4c95423fb7e10e68eba52050e30ba3
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/themaster/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/themaster/Documentos/2nd_year_AEDA/p03_life_on_the_border
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-QxXLCyVDVty7/agent.1391
+# default
+.SHELLFLAGS := -c
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCodium","submitURL":"","uploadToServer":false}
+# environment
+XDG_SESSION_DESKTOP = plasma
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 2776
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/Fenix:@/tmp/.ICE-unix/1650,unix/Fenix:/tmp/.ICE-unix/1650
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = codium-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"1a0efdb61e44124e1e10edd3da0bcd30.es","_translationsConfigFile":"/home/themaster/.config/VSCodium/clp/1a0efdb61e44124e1e10edd3da0bcd30.es/tcf.json","_cacheRoot":"/home/themaster/.config/VSCodium/clp/1a0efdb61e44124e1e10edd3da0bcd30.es","_resolvedLanguagePackCoreLocation":"/home/themaster/.config/VSCodium/clp/1a0efdb61e44124e1e10edd3da0bcd30.es/899d46d82c4c95423fb7e10e68eba52050e30ba3","_corruptedFile":"/home/themaster/.config/VSCodium/clp/1a0efdb61e44124e1e10edd3da0bcd30.es/corrupted.info","_languagePackSupport":true}
+# environment
+BREAKPAD_DUMP_LOCATION = /home/themaster/.config/VSCodium/exthost Crash Reports
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/themaster/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/snap/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/home/themaster/.dotnet/tools
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = 
+# environment
+LC_MONETARY = es_ES.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = es_ES.UTF-8
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+LC_TELEPHONE = es_ES.UTF-8
+# automatic
+?F = $(notdir $?)
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = plasma
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = themaster
+# environment
+XDG_VTNR = 7
+# makefile
+.DEFAULT_GOAL := life_border
+# environment
+DISPLAY = :0
+# environment
+USER = themaster
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+KDE_SESSION_UID = 1000
+# environment
+LC_MEASUREMENT = es_ES.UTF-8
+# environment
+SSH_AGENT_PID = 1438
+# environment
+_ = /usr/share/codium/codium
+# environment
+LC_PAPER = es_ES.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 27)
+CFLAGS = -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/themaster/.gtkrc-2.0:/home/themaster/.config/gtkrc-2.0
+# environment
+HOME = /home/themaster
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-31b4877d-1.63.2-main.sock
+# environment
+XDG_SESSION_ID = 2
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 28)
+DEPS = main_functions.h Cell.h Grid.h GridWithOpenBorder.h GridWithPeriodicBorder.h GridWithReflectiveBorder.h GridWithoutBorder.h State.h StateDead.h StateAlive.h
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm/data/themaster
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 26)
+CC = g++
+# environment
+KDE_FULL_SESSION = true
+# environment
+GDMSESSION = plasma
+# environment
+LC_IDENTIFICATION = es_ES.UTF-8
+# variable set hash-table stats:
+# Load=110/1024=11%, Rehash=0, Collisions=4/142=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 40, inode 240893): 26 files, no impossibilities.
+
+# 26 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.cc main_functions.h Cell.h Grid.h GridWithOpenBorder.h GridWithPeriodicBorder.h GridWithReflectiveBorder.h GridWithoutBorder.h State.h StateDead.h StateAlive.h
+#  recipe to execute (from 'Makefile', line 32):
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-04 08:43:10.024976795
+#  File has been updated.
+#  Successfully updated.
+
+life_border: main_functions.o Cell.o Grid.o GridWithOpenBorder.o GridWithPeriodicBorder.o GridWithReflectiveBorder.o GridWithoutBorder.o State.o StateDead.o StateAlive.o main_life_border.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 35):
+	$(CC) $(CFLAGS) -o $@ $^
+
+# Not a target:
+main_functions.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 38):
+	rm -rf *.o
+
+# Not a target:
+StateDead.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+State.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Grid.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+GridWithPeriodicBorder.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GridWithoutBorder.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Cell.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GridWithOpenBorder.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main_life_border.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GridWithReflectiveBorder.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+StateAlive.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=17/1024=2%, Rehash=0, Collisions=0/38=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 45 / storage = 624 B / avg = 13 B
+# current buf: size = 8162 B / used = 624 B / count = 45 / avg = 13 B
+
+# strcache performance: lookups = 62 / hit rate = 27%
+# hash-table stats:
+# Load=45/8192=1%, Rehash=0, Collisions=0/62=0%
+# Finished Make data base on Mon Apr  4 08:43:28 2022
+
+ 

@@ -1,0 +1,442 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Apr  5 01:21:09 2022
+
+# Variables
+
+# makefile (from 'Makefile', line 29)
+OBJ = $(shell echo $(AUX) | sed -r 's/.cc/.o/g')
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/themaster/.gtkrc:/home/themaster/.config/gtkrc
+# makefile (from 'Makefile', line 33)
+OBJDIR = build
+# makefile (from 'Makefile', line 19)
+OBJSRC = src
+# makefile (from 'Makefile', line 36)
+BINDIR = bin
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-fc942d17-df47-4d4d-941e-dc25bc6b5aa6.sock
+# environment
+LC_NAME = es_ES.UTF-8
+# environment
+LC_NUMERIC = es_ES.UTF-8
+# environment
+VSCODE_CWD = /home/themaster
+# makefile (from 'Makefile', line 28)
+AUX = $(OBJSRC)/*.cc
+# environment
+LC_ADDRESS = es_ES.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# makefile (from 'Makefile', line 16)
+DEPSSRC = include
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/themaster/Documentos/2nd_year_AEDA/p04_hash_table
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/themaster/.config/VSCodium/CachedData/e18005f0f1b33c29e81d732535d8c0e47cafb0b5
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/themaster/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/themaster/Documentos/2nd_year_AEDA/p04_hash_table
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-SAmcyT60TWwQ/agent.1405
+# default
+.SHELLFLAGS := -c
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+XDG_SESSION_DESKTOP = plasma
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 182544
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/Fenix:@/tmp/.ICE-unix/1562,unix/Fenix:/tmp/.ICE-unix/1562
+# makefile (from 'Makefile', line 8)
+EJECUTABLE = hash_table
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = codium-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"52008e6c8462a436096c40d64a7cb71d.es","_translationsConfigFile":"/home/themaster/.config/VSCodium/clp/52008e6c8462a436096c40d64a7cb71d.es/tcf.json","_cacheRoot":"/home/themaster/.config/VSCodium/clp/52008e6c8462a436096c40d64a7cb71d.es","_resolvedLanguagePackCoreLocation":"/home/themaster/.config/VSCodium/clp/52008e6c8462a436096c40d64a7cb71d.es/e18005f0f1b33c29e81d732535d8c0e47cafb0b5","_corruptedFile":"/home/themaster/.config/VSCodium/clp/52008e6c8462a436096c40d64a7cb71d.es/corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 24)
+DEPSCPY = $(DEPS)
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/themaster/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/snap/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/home/themaster/.local/bin:/snap/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/themaster/.dotnet/tools
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = 
+# environment
+LC_MONETARY = es_ES.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = es_ES.UTF-8
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+LC_TELEPHONE = es_ES.UTF-8
+# automatic
+?F = $(notdir $?)
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = plasma
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = themaster
+# environment
+XDG_VTNR = 7
+# makefile
+.DEFAULT_GOAL := bin/hash_table
+# environment
+DISPLAY = :0
+# environment
+USER = themaster
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+KDE_SESSION_UID = 1000
+# 'override' directive
+.SHELLSTATUS := 0
+# environment
+LC_MEASUREMENT = es_ES.UTF-8
+# environment
+SSH_AGENT_PID = 1452
+# environment
+_ = /usr/share/codium/codium
+# environment
+LC_PAPER = es_ES.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 5)
+CFLAGS = -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/themaster/.gtkrc-2.0:/home/themaster/.config/gtkrc-2.0
+# environment
+HOME = /home/themaster
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-31b4877d-1.66.0-main.sock
+# environment
+XDG_SESSION_ID = 2
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 23)
+DEPS = $(DEPSSRC)/*.h
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm/data/themaster
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 2)
+CC = g++
+# environment
+KDE_FULL_SESSION = true
+# environment
+GDMSESSION = plasma
+# environment
+LC_IDENTIFICATION = es_ES.UTF-8
+# variable set hash-table stats:
+# Load=116/1024=11%, Rehash=0, Collisions=7/156=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# include (device 40, inode 240931): 16 files, no impossibilities.
+# . (device 40, inode 240922): 8 files, no impossibilities.
+
+# 24 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.o: %.cc include/DFModulo.h include/DFRandom.h include/DFSum.h include/DispersionFunction.h include/EFCuadratica.h include/EFDoubleDispersion.h include/EFLineal.h include/EFReDispersion.h include/ExplorationFunction.h include/HashTable.h include/SBlock.h include/SList.h include/Sequence.h include/main_functions.h
+#  recipe to execute (from 'Makefile', line 40):
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+src/EFDoubleDispersion.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/DFSum.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/HashTable.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+ 
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-04 21:19:14.170451082
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 51):
+	rm -rf $(OBJSRC)/*.o
+
+# Not a target:
+src/DispersionFunction.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+template:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	mkdir $(BINDIR)
+	mkdir $(OBJDIR)
+	mkdir $(DEPSSRC)
+	mkdir $(OBJSRC)
+	@echo "Plantilla creada correctamente"
+
+# Not a target:
+src/EFReDispersion.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/Sequence.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cleaner:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 54):
+	rm -rf $(BINDIR)/*
+
+# Not a target:
+src/main_hash_table.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/SList.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/DFRandom.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+src/ExplorationFunction.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+show:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 64):
+	@echo $(AUX)
+	@echo $(OBJ)
+	@echo $(DEPSCPY)
+
+# Not a target:
+src/EFLineal.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/SBlock.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/main_functions.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/EFCuadratica.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/hash_table: src/DFModulo.o src/DFRandom.o src/DFSum.o src/DispersionFunction.o src/EFCuadratica.o src/EFDoubleDispersion.o src/EFLineal.o src/EFReDispersion.o src/ExplorationFunction.o src/HashTable.o src/SBlock.o src/SList.o src/Sequence.o src/main_functions.o src/main_hash_table.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 43):
+	$(CC) $(CFLAGS) -o $@ $^
+	@echo ""
+	@echo ARCHIVOS .o: $(OBJ)
+	@echo ARCHIVOS .h: $(DEPSCPY)
+	@echo ""
+
+# Not a target:
+src/DFModulo.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=24/1024=2%, Rehash=0, Collisions=1/49=2%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 63 / storage = 923 B / avg = 14 B
+# current buf: size = 8162 B / used = 923 B / count = 63 / avg = 14 B
+
+# strcache performance: lookups = 75 / hit rate = 16%
+# hash-table stats:
+# Load=63/8192=1%, Rehash=0, Collisions=0/75=0%
+# Finished Make data base on Tue Apr  5 01:21:09 2022
+
+ 

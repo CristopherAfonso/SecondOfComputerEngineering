@@ -1,0 +1,16 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/themaster/Documentos/2nd_year_AEDA/p03_life_on_the_border'
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o main_functions.o main_functions.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o Cell.o Cell.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o Grid.o Grid.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o GridWithOpenBorder.o GridWithOpenBorder.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o GridWithPeriodicBorder.o GridWithPeriodicBorder.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o GridWithReflectiveBorder.o GridWithReflectiveBorder.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o GridWithoutBorder.o GridWithoutBorder.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o State.o State.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o StateDead.o StateDead.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o StateAlive.o StateAlive.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o main_life_border.o main_life_border.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -o life_border main_functions.o Cell.o Grid.o GridWithOpenBorder.o GridWithPeriodicBorder.o GridWithReflectiveBorder.o GridWithoutBorder.o State.o StateDead.o StateAlive.o main_life_border.o
+make: Leaving directory '/home/themaster/Documentos/2nd_year_AEDA/p03_life_on_the_border'
+ 

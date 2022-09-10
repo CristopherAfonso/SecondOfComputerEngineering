@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/themaster/Documentos/2nd_year_AEDA/p01_game_life'
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o main_functions.o main_functions.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o Cell.o Cell.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o Grid.o Grid.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -c -o main_game_life.o main_game_life.cc
+g++ -I -g -std=c++17 -Wall -Weffc++ -Wextra -Wpedantic -Werror -o game_life main_functions.o Cell.o Grid.o main_game_life.o
+make: Leaving directory '/home/themaster/Documentos/2nd_year_AEDA/p01_game_life'
+ 
